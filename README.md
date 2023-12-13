@@ -1,16 +1,11 @@
 # my_portfolio
 
 A new Flutter project.
+A portfolio webiste created in flutter.
+### Note
+Still in progress...
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![my_portfolio_1](https://github.com/Upendra48/my_portfolio/assets/122508513/b07cf531-7b47-4c8e-9714-5dd27f944957)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![my_portfolio_2](https://github.com/Upendra48/my_portfolio/assets/122508513/689a4807-2a5a-40f8-a395-0476f00b9bc4)
