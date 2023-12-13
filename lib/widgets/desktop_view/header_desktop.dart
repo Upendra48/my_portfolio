@@ -6,11 +6,12 @@ class HeaderDesktop extends StatelessWidget {
   const HeaderDesktop({super.key, this.onLogoTap});
 
   final VoidCallback? onLogoTap;
-
+  
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 50.0,
+      
       margin: const EdgeInsets.symmetric(
         vertical: 10.0,
         horizontal: 20.0,
