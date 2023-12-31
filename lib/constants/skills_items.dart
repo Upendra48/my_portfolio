@@ -1,22 +1,22 @@
 const List<Map> skillsItems = [
   {
     "title": "Flutter",
-    "img": "assets/images/flutter.png",
+    "img": "assets/flutter.png",
   },
   {
-    "img": "assets/images/dart.png",
+    "img": "assets/dart.png",
     "title": "Dart",
   },
   {
-    "img": "assets/images/C_programming.png",
+    "img": "assets/C_programming.png",
     "title": "C",
   },
   {
-    "img": "assets/images/c++.png",
+    "img": "assets/c++.png",
     "title": "C++",
   },
   {
-    "img": "assets/images/c_sharp.png",
+    "img": "assets/c_sharp.png",
     "title": "C Sharp",
   }
 ];

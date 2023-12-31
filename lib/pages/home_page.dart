@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 //import 'package:my_portfolio/constants/colors.dart';
 import 'package:my_portfolio/constants/size.dart';
+import 'package:my_portfolio/constants/skills_items.dart';
 //import 'package:my_portfolio/constants/nav_items.dart';
 import 'package:my_portfolio/widgets/mobile_view/drawer_mobile.dart';
 import 'package:my_portfolio/widgets/desktop_view/header_desktop.dart';
@@ -10,6 +11,7 @@ import 'package:my_portfolio/widgets/desktop_view/header_desktop.dart';
 import 'package:my_portfolio/widgets/mobile_view/header_mobile.dart';
 import 'package:my_portfolio/widgets/desktop_view/main_desktop.dart';
 import 'package:my_portfolio/widgets/mobile_view/main_mobile.dart';
+import 'package:my_portfolio/widgets/skills_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({
@@ -46,30 +48,13 @@ class _HomePageState extends State<HomePage> {
               },
             ),
 
-          
           if (MediaQuery.of(context).size.width > MinDesktopSize)
             const MainDesktop()
           else
             const MainMobile(),
 
           //* skills section
-          Container(
-            height: 500,
-            width: double.maxFinite,
-            color: Colors.grey,
-            child: const Column(children: [
-              // title
-              Text(
-                "Skills",
-                style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-
-              // skills
-            ]),
-          ),
+          const SkillsView(),
 
           //* projects section
           Container(
